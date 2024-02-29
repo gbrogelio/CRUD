@@ -3,9 +3,10 @@ import { ImageBackground, StyleSheet, KeyboardAvoidingView } from 'react-native'
 import { theme } from '../core/theme'
 
 export default function Background({ children }) {
+  const bacgroundImg = require('..assets/background_dot.png');
   return (
     <ImageBackground
-      source={require('../assets/background_dot.png')}
+      source={bacgroundImg}
       resizeMode="repeat"
       style={styles.background}
     >

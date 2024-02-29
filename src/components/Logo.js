@@ -2,7 +2,8 @@ import React from 'react'
 import { Image, StyleSheet } from 'react-native'
 
 export default function Logo() {
-  return <Image source={require('../assets/icon.png')} 
+  const logo = require('../assets/icon.png');
+  return <Image source={logo} 
   style={styles.image} />;
 }
 
